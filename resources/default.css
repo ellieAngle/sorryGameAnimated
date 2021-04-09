@@ -1,0 +1,36 @@
+.root {
+    -fx-font-size: 11pt;
+    -fx-font-family: "Lucida Sans Unicode";
+    /*-fx-background: rgb(25, 195, 245); */
+}
+
+.button {
+    -fx-background-color: #78F773;
+    -fx-font-family: "Lucida Sans Unicode";
+    -fx-border-radius: 10;
+    -fx-background-radius: 20;
+    -fx-padding: 15;
+}
+.combo-box {
+    -fx-background-color: WHITE;
+    -fx-font-family: "Lucida Sans Unicode";
+    -fx-progress-color:#50C9F5 ;
+    -fx-border-color: #11339B;
+}
+
+.label {
+    -fx-background-color: WHITE;
+    -fx-font-family: "Lucida Sans Unicode";
+    -fx-padding: 5;
+}
+
+.button:hover {
+    -fx-background-color:#26F51F;
+}
+#pane{
+    -fx-background-image: url("sorryBackground.png");
+    /*-fx-background-repeat: stretch; */
+    -fx-background-size: 600 600;
+    -fx-background-position: center center;
+    -fx-effect: dropshadow(three-pass-box, black, 30, 0.5, 0, 0);
+}
